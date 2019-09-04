@@ -32,7 +32,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 5. Type:
@@ -43,7 +43,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals
 
 ==========
 6. Type:
@@ -54,7 +54,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+food
 
 ==========
 7. Type:
@@ -65,7 +65,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals	foo	food
 
 ==========
 8. Type:
@@ -76,7 +76,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -87,7 +87,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar
 
 ==========
 10. Type:
@@ -98,7 +98,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -109,7 +109,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 12. Type:
@@ -121,7 +121,9 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
-
+total 0
+drwxr-xr-x  3 student  staff  102 Sep  4 19:37 foo
+drwxr-xr-x  2 student  staff   68 Sep  4 19:36 food
 
 ==========
 13. Type:
@@ -132,7 +134,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student
 
 ==========
 14. Type:
@@ -143,7 +145,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/volumes
 
 ==========
 15. Type:
@@ -154,7 +156,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+-bash: cd: /unknown_folder: No such file or directory
 
 ==========
 15. Type:
@@ -165,7 +167,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 16. Type:
@@ -175,13 +177,13 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+v120-ent-016.local
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+pwd
 
 ==========
 17b. If you're not in the right directory, type the following command:
