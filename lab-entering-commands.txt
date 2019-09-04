@@ -18,7 +18,18 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
+01_open
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+genymotion-log.zip
 
 ==========
 2a. Type: 
@@ -28,19 +39,44 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
-
+list the directory 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
+.CFUserTextEncoding
+.DS_Store
+.Genymobile/
+.Trash/
+.adobe/
+.android/
+.bash_history
+.bash_sessions/
+.cache/
+.cups/
+.gervill/
+.oracle_jre_usage/
+01_open/
+Applications/
+Creative Cloud Files/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+--More--
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+anthonygarces88@gmail.com Creative Cloud Files/
+--More--
 
 ==========
 3.  Type:
@@ -50,7 +86,9 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+total 1096784
+-rw-r--r--@  1 Jacob  staff     115972 May  5  2015 1.docx
+-rw-r--r--@  1 Jacob  staff      52018 Oct  6  2018 25 BROAD STREET RATES.pdf
 
 ==========
 4.  Type:
@@ -60,7 +98,12 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.DS_Store
+.localized
+1.docx
+25 BROAD STREET RATES.pdf
+Adobe
+Bullying.docx
 
 ==========
 5.  Type:
@@ -70,7 +113,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+ls -a Documents
 
 ==========
 6.  Type:
@@ -80,7 +123,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+ls -l Documents
 
 ==========
 7.  Type:
@@ -90,7 +133,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+Macintosh HD
 
 ==========
 8.  Type:
@@ -100,37 +143,38 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+<up>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-a
+-l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+<tab>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+documents
 
 ==========
 14.  Type:
@@ -140,7 +184,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -150,7 +194,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -158,4 +202,9 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
-----------
+----------  
+
+command ls
+flag -a
+argument desktop
+propmt $
