@@ -18,7 +18,18 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+anthonygarces88@gmail.com Creative Cloud Files
+genymotion-log.zip
 
 ==========
 2a. Type: 
@@ -28,13 +39,13 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
-
+nothing happens
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
-
+give the options which directory to choose frim that starts with D
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
